@@ -6,13 +6,14 @@ import {
   Route,
   Link
 } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const App = () => (
   <Router>
     <div>
       <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
+        <li><NavLink to="/">Home</NavLink></li>
+        <li><NavLink to="/about">About</NavLink></li>
         <li><Link to="/topics">Topics</Link></li>
       </ul>
 
